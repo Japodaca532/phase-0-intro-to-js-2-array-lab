@@ -5,9 +5,9 @@
     "passes": 0,
     "pending": 0,
     "failures": 1,
-    "start": "2023-03-06T00:59:29.864Z",
-    "end": "2023-03-06T01:00:06.786Z",
-    "duration": 36922
+    "start": "2023-03-31T21:22:59.070Z",
+    "end": "2023-03-31T21:23:08.675Z",
+    "duration": 9605
   },
   "tests": [],
   "pending": [],
@@ -15,10 +15,10 @@
     {
       "title": "\"before all\" hook",
       "fullTitle": "\"before all\" hook",
-      "duration": 36910,
+      "duration": 9598,
       "currentRetry": 0,
       "err": {
-        "stack": "Error: Timeout of 5000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves.\n    at Object.done (node_modules/mocha-jsdom/index.js:70:7)\n    at /mnt/c/Users/Jac/development/code/prework/phase-0-intro-to-js-2-array-lab/node_modules/jsdom/lib/jsdom.js:312:18\n    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)",
+        "stack": "Error: Timeout of 5000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves.\n    at Object.done (node_modules/mocha-jsdom/index.js:70:7)\n    at /mnt/c/Users/Jac/development/code/phase-1/phase-0-intro-to-js-2-array-lab/node_modules/jsdom/lib/jsdom.js:312:18\n    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)",
         "message": "Timeout of 5000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves."
       }
     }
